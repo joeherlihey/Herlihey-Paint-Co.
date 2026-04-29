@@ -65,6 +65,7 @@ CSS STRUCTURE:
 --------------------------------------------------------------*/
 :root {
   --primary-color: #3c422f;
+  --hover-color: #5e614d;
   --secondary-color: #05213C;
   --black-color: #1F1F1F;
   --light-black-color: #444444;
@@ -123,7 +124,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--hover-color);
 }
 
 .text-light {
