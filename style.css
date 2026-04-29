@@ -868,3 +868,30 @@ h2 {
   background-color: #ffffff !important;
   border-bottom: 1px solid #e5e5e5;
 }
+
+/* Clean header/logo sizing */
+#header {
+  position: sticky !important;
+  top: 0;
+  z-index: 9999;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+#header .logo {
+  max-height: 70px !important;
+  width: auto !important;
+}
+
+/* Fix welcome/services spacing */
+#about {
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+
+#services {
+  padding-top: 40px !important;
+}
+
