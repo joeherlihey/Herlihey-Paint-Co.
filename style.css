@@ -854,3 +854,14 @@ h2 {
 #header {
   border-bottom: 1px solid #e0e0e0;
 }
+
+/* Sticky header with bottom border */
+#header {
+  position: sticky !important;
+  top: 0;
+  z-index: 9999;
+  background-color: #F6F6F6 !important;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
