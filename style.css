@@ -124,7 +124,7 @@ a {
 }
 
 a:hover {
-  color: (--hover-color);
+  color: var(--hover-color)!important;
 }
 
 .text-light {
