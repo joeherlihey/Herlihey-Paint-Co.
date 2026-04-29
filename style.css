@@ -819,7 +819,7 @@ iconify-icon.quote {
 }
 
 h2 {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 /* Fix button overlap above "How We Make Difference" */
 .book-us-now-btn,
@@ -859,4 +859,12 @@ h2 {
   border-bottom: 1px solid #dcdcdc;
   margin: 0 !important;
   border-radius: 0 !important;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
 }
