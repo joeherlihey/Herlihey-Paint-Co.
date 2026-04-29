@@ -839,3 +839,13 @@ h2 {
   z-index: 1;
   padding-top: 100px;
 }
+
+/* Fix header overlap */
+#about {
+  padding-top: 180px !important;
+}
+
+.logo {
+  max-height: 90px;
+  width: auto;
+}
