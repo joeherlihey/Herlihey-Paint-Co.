@@ -813,3 +813,10 @@ iconify-icon.quote {
 .rate {
   color: var(--primary-color);
 }
+.hero-buttons {
+  margin-bottom: 80px;
+}
+
+h2 {
+  margin-top: 60px;
+}
