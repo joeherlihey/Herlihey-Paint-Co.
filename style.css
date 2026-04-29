@@ -64,7 +64,7 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --primary-color: #E54521;
+  --primary-color: #3c422f;
   --secondary-color: #05213C;
   --black-color: #1F1F1F;
   --light-black-color: #444444;
@@ -846,6 +846,6 @@ h2 {
 }
 
 .logo {
-  max-height: 90px;
+  max-height: 70px;
   width: auto;
 }
