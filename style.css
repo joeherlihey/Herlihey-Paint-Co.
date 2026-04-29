@@ -841,11 +841,6 @@ h2 {
   padding-top: 100px;
 }
 
-/* Fix header overlap */
-#about {
-  padding-top: 180px !important;
-}
-
 .logo {
   max-height: 70px;
   width: auto;
