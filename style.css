@@ -820,3 +820,22 @@ iconify-icon.quote {
 h2 {
   margin-top: 60px;
 }
+/* Fix button overlap above "How We Make Difference" */
+.book-us-now-btn,
+.video-btn,
+.banner-btn,
+.hero-btn,
+.hero-buttons,
+.btn-box {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 90px;
+}
+
+.heading-area,
+.section-title,
+.title-area {
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+}
