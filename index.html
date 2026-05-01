@@ -32,6 +32,21 @@
     rel="stylesheet">
 </head>
 
+<script>
+  const videos = document.querySelectorAll('.service-video');
+
+  videos.forEach(video => {
+    video.parentElement.addEventListener('mouseenter', () => {
+      video.play();
+    });
+
+    video.parentElement.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+</script>
+ 
 <body>
 
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -240,7 +255,7 @@
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="service-post">
           <a href="services-single.html">
-            <video class="img-fluid w-100" autoplay muted loop playsinline>
+           <video class="service-video img-fluid w-100 muted playsinline">
   <source src="Interior-Video.mp4" type="video/mp4">
 </video>
           </a>
