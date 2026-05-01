@@ -903,3 +903,33 @@ h2 {
   object-fit: cover;     /* crops instead of showing black bars */
   border-radius: 12px;   /* optional, matches your design */
 }
+
+.service-post {
+  overflow: hidden;
+}
+
+.service-post video {
+  object-position: center;
+}
+object-position: top;
+
+.service-post video,
+.service-post img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.service-post {
+  overflow: hidden;
+}
+
+.service-post video,
+.service-post img {
+  transition: transform 0.3s ease;
+}
+
+.service-post:hover video,
+.service-post:hover img {
+  transform: scale(1.05);
+}
