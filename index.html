@@ -32,24 +32,6 @@
     rel="stylesheet">
 </head>
 
-<script>
-  document.querySelectorAll('.service-post').forEach(card => {
-    const video = card.querySelector('video');
-
-    if (!video) return;
-
-    card.addEventListener('mouseenter', () => {
-      video.currentTime = 0;
-      video.play();
-    });
-
-    card.addEventListener('mouseleave', () => {
-      video.pause();
-      video.currentTime = 0;
-    });
-  });
-</script>
- 
 <body>
 
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -260,6 +242,25 @@
           <a href="services-single.html">
            <video class="service-video img-fluid w-100" muted playsinline>
   <source src="Interior-Video.mp4" type="video/mp4">
+
+ <script>
+  document.querySelectorAll('.service-post').forEach(card => {
+    const video = card.querySelector('video');
+
+    if (!video) return;
+
+    card.addEventListener('mouseenter', () => {
+      video.currentTime = 0;
+      video.play();
+    });
+
+    card.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+</script>
+ 
 </video>
           </a>
            <div class="mt-3">
