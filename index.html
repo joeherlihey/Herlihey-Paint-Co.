@@ -33,14 +33,17 @@
 </head>
 
 <script>
-  const videos = document.querySelectorAll('.service-video');
+  document.querySelectorAll('.service-post').forEach(card => {
+    const video = card.querySelector('video');
 
-  videos.forEach(video => {
-    video.parentElement.addEventListener('mouseenter', () => {
+    if (!video) return;
+
+    card.addEventListener('mouseenter', () => {
+      video.currentTime = 0;
       video.play();
     });
 
-    video.parentElement.addEventListener('mouseleave', () => {
+    card.addEventListener('mouseleave', () => {
       video.pause();
       video.currentTime = 0;
     });
@@ -255,7 +258,7 @@
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="service-post">
           <a href="services-single.html">
-           <video class="service-video img-fluid w-100 muted playsinline">
+           <video class="service-video img-fluid w-100" muted playsinline>
   <source src="Interior-Video.mp4" type="video/mp4">
 </video>
           </a>
