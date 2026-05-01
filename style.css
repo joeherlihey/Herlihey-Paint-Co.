@@ -895,3 +895,11 @@ h2 {
   padding-top: 10px !important;
 }
 
+
+.service-post video,
+.service-post img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* makes it a square */
+  object-fit: cover;     /* crops instead of showing black bars */
+  border-radius: 12px;   /* optional, matches your design */
+}
